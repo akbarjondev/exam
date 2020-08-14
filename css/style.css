@@ -219,6 +219,10 @@
 .upgrade-right iframe {
 	border-radius: 5px;
 }
+.iframe {
+	width: 458px;
+	height: 258px;
+}
 
 /*services*/
 .services-section {
@@ -359,6 +363,10 @@
 	border: none;
 	border-radius: 5px;
 }
+	.form-input::placeholder {
+	  color: var(--main-black-color);
+	  opacity: 1;
+	}
 .select-input {
 	width: 100%;
 }
