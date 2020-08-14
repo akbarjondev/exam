@@ -125,26 +125,130 @@
 		<hr class="gray-line">
 
 		<section class="how">
-			<h1 class="how__heading">Biz qanday ishlaymiz?</h1>
+			<h2 class="how__heading">Biz qanday ishlaymiz?</h2>
 			<p class="how__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
 			<div class="how-wrapper">
-				<img class="how__img" src="img/step-illlustration.png" srcset="img/step-illlustration.png 1x, img/step-illlustration@2x.png 2x" alt="Step board" width="300" height="278">
+				<img class="how__img m-left" src="img/step-illlustration.png" srcset="img/step-illlustration.png 1x, img/step-illlustration@2x.png 2x" alt="Step board" width="300" height="278">
+				<div class="how-right">
+					<h2 class="wrapper__heading">Talablarni aniqlab chiqamiz</h2>
+					<p class="wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+				</div>
 			</div>
-			<div class="how-wrapper">
+			<div class="how-wrapper reverse">
 				<img class="how__img" src="img/woman-illlustration.png" srcset="img/woman-illlustration.png 1x, img/woman-illlustration@2x.png 2x" alt="Woman worker" width="300" height="225">
+				<div class="how-right">
+					<h2 class="wrapper__heading">Bir nechta yechimlarni taklif qilamiz</h2>
+					<p class="wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+				</div>
 			</div>
 			<div class="how-wrapper">
-				<img class="how__img" src="img/geek-illustration.png" srcset="img/geek-illustration.png 1x, img/geek-illustration@2x.png 2x" alt="Geek works" width="300" height="260">
+				<img class="how__img m-left" src="img/geek-illustration.png" srcset="img/geek-illustration.png 1x, img/geek-illustration@2x.png 2x" alt="Geek works" width="300" height="260">
+				<div class="how-right">
+					<h2 class="wrapper__heading">Loyiha uchun vaqt belgilaymiz</h2>
+					<p class="wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+				</div>
 			</div>
-			<div class="how-wrapper">
+			<div class="how-wrapper reverse">
 				<img class="how__img" src="img/cup-illustration.png" srcset="img/cup-illustration.png 1x, img/cup-illustration@2x.png 2x" alt="Winning cup" width="300" height="172">
+				<div class="how-right">
+					<h2 class="wrapper__heading">A'lo sifat bilan bajarib topshiramiz</h2>
+					<p class="wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+				</div>
 			</div>
 			<div class="how-wrapper">
-				<img class="how__img" src="img/person-illustration.png" srcset="img/person-illustration.png 1x, img/person-illustration@2x.png 2x" alt="Person on the card" width="300" height="234">
+				<img class="how__img m-left" src="img/person-illustration.png" srcset="img/person-illustration.png 1x, img/person-illustration@2x.png 2x" alt="Person on the card" width="300" height="234">
+				<div class="how-right">
+					<h2 class="wrapper__heading">Qo'llab quvvatlab boramiz</h2>
+					<p class="wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
+				</div>
+			</div>
+			
+			<div class="how-bottom">
+				<a class="how__order button" href="#orders">Buyurtma berish</a>
 			</div>
 		</section><!-- End of how -->
 	</div><!-- End of container -->
+	
+	<div class="orders" id="orders">
+		<div class="container orders-container">
+			<h1 class="orders__heading">Buyurtma berish</h1>
+			<p class="orders__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
 
+			<form class="orders__form" action="https://echo.htmlacademy.ru" method="POST">
+				<div class="form-wrapper">
+					<input class="form-input" type="text" name="name" placeholder="Ismingiz" required>
+				</div>
+				<div class="form-wrapper">
+					<input class="form-input" type="tel" name="name" placeholder="Telefon raqamingiz" required>
+				</div>
+				<div class="form-wrapper">
+					<select class="form-input select-input" name="service_type" required>
+						<option value=""></option>
+						<option value="website">Vebsayt</option>
+						<option value="bot">Telegram bot</option>
+						<option value="smm">SMM</option>
+						<option value="design">Grafik dizayn</option>
+						<option value="crm">CRM tizimlar</option>
+					</select>
+				</div>
+				
+				<div class="form-bottom">
+					<button class="button order-button" type="submit">Buyurtma berish</button>
+				</div>
+			</form>
+		</div><!-- End of container -->
+	</div><!-- End of orders -->
+
+	<footer class="footer">
+		<div class="container footer-container">
+			<div class="footer-left">
+				<h2 class="footer__heading">Copyright 2020</h2>
+				<p class="footer__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
+			</div>
+
+			<div class="footer-right">
+				<div class="footer-wrapper">
+					<h3 class="right__heading">Sayt sahifalari</h3>
+					<ul class="footer-list">
+						<li class="footer__item">
+							<a class="footer-link" href="index.html">Bosh sahifa</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer-link" href="#">Xizmatlar</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer-link" href="#">Portfolio</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer-link" href="#">Jamoa</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer-link" href="#">Blog</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer-link" href="#">Kontaktlar</a>
+						</li>
+					</ul><!-- End of list -->
+				</div>
+				
+				<div class="footer-wrapper">
+					<h3 class="right__heading">Biz internetda</h3>
+					<ul class="footer-list">
+						<li class="footer__item">
+							<a class="footer-link telegram telegram-b" href="#">Telegram</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer-link facebook facebook-b" href="#">Facebook</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer-link instagram instagram-b" href="#">Instagram</a>
+						</li>
+					</ul>
+				</div>
+
+			</div><!-- End of footer-right -->
+		</div><!-- End of container -->
+	</footer><!-- End of footer -->
 	<script src="js/script.js"></script>
 </body>
 </html>
